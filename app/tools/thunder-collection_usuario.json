@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "usuario",
+    "collectionId": "08cec307-0329-4b67-80c8-ce2aa54e31d5",
+    "dateExported": "2024-05-23T00:17:54.785Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8a14a2e1-2e55-4aa6-81dd-b268eb4ee362",
+            "colId": "08cec307-0329-4b67-80c8-ce2aa54e31d5",
+            "containerId": "",
+            "name": "mostrar",
+            "url": "localhost:3001/api/user/2",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-22T22:02:13.562Z",
+            "modified": "2024-05-22T22:02:54.139Z",
+            "headers": []
+        },
+        {
+            "_id": "01af46af-bd23-43b2-ae04-b87147103bd0",
+            "colId": "08cec307-0329-4b67-80c8-ce2aa54e31d5",
+            "containerId": "",
+            "name": "listar",
+            "url": "localhost:3001/api/user",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-22T22:05:15.280Z",
+            "modified": "2024-05-22T22:10:44.148Z",
+            "headers": []
+        },
+        {
+            "_id": "a21202b5-1dfb-49f9-84b3-f4bf8dbcb035",
+            "colId": "08cec307-0329-4b67-80c8-ce2aa54e31d5",
+            "containerId": "",
+            "name": "crear",
+            "url": "localhost:3001/api/user",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-22T22:05:43.807Z",
+            "modified": "2024-05-22T23:30:51.755Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"nombre\": \"Lucia\",\r\n  \"apellido\": \"Moncada\",\r\n  \"clave\": \"1234\"\r\n}\r\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "5d5c88cf-3311-404c-8d60-cbbea5e627ea",
+            "colId": "08cec307-0329-4b67-80c8-ce2aa54e31d5",
+            "containerId": "",
+            "name": "modificar",
+            "url": "localhost:3001/api/user",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-22T22:06:17.830Z",
+            "modified": "2024-05-22T23:49:35.109Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Paulina\",\n  \"apellido\": \"Ramírez\",\n  \"clave\": \"444\",\n  \"id\":\"1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3e60205f-5c2d-4cee-8e01-7de46d9e2a47",
+            "colId": "08cec307-0329-4b67-80c8-ce2aa54e31d5",
+            "containerId": "",
+            "name": "eliminar",
+            "url": "localhost:3001/api/user",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-22T22:06:42.342Z",
+            "modified": "2024-05-23T00:04:04.347Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"5\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "O3wjcGyjo1cgEnVdgZGC1OQgYHJZoet7ShRianMKDJX1eCDBQ81fmIvqWvFWvjKmGvJ7g7cdbg3bnOHBDODleQ"
+}
